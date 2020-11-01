@@ -1,0 +1,38 @@
+{
+  "name": "keywordevering",
+  "version": "1.0.0",
+  "description": "Keyword Recommendation System through Naver api and crawling",
+  "main": "index.js",
+  "author": "Dongil Kim",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@std/esm": "^0.26.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cron": "^1.8.2",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^3.22.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.3",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.10.0",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0"
+  }
+}
